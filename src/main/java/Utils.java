@@ -19,7 +19,7 @@ public class Utils {
      */
     public static int maxker(int[] array) {
         if (array == null) return -1;
-        
+
         int idx = -1;
         int max = Integer.MIN_VALUE;
         logger.info("Search is starting...");
