@@ -11,6 +11,11 @@ public class UtilsTest {
     }
 
     @Test
+    public void ifArgumentIsNull_IndexShouldBeMinus1() {
+        assertEquals(-1, Utils.maxker(null));
+    }
+
+    @Test
     public void OneLengthArray_Gives0() {
         int[] array = { 25 };
         assertEquals(0, Utils.maxker(array));
